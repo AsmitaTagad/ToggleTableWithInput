@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+table,
+tr,
+td {
+  border: 1px solid;
+  background-color: #ceddeb;
+}
+
+th {
+  background-color: #321768;
+  padding: 0.4rem;
+  color: #fff;
+}
+table {
+  border-collapse: collapse;
+}
+td {
+  padding: 0.4rem;
+  width: 10rem;
+  text-align: center;
+}
+.table {
+  margin: 1rem;
+  display: block;
+  justify-content: center;
+  margin-left: 2.5rem;
+}
+.inputFiled input {
+  border-radius: 4px;
+  padding: 0.6rem;
+  width: 15rem;
+  margin-top: 3rem;
+  
+}
